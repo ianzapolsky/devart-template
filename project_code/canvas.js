@@ -34,7 +34,7 @@ var painter = function () {
     c   = document.getElementById("canvas");
     ctx = c.getContext("2d");
     
-    for (var i = 0; i < 50; i++) {
+    for (var i = 0; i < 500; i++) {
       ctx.moveTo(getRandomX(), getRandomY());
       ctx.lineTo(getRandomX(), getRandomY());
       ctx.stroke();
